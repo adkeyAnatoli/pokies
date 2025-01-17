@@ -1,0 +1,1418 @@
+/*
+Theme Name: default-2
+Description: default wordpress theme based on twentyten default theme
+Author: alexk
+Version: 4.2
+Tags: orange, blue, white, three-columns, fixed-width, translation-ready, microformats, rtl-language-support, editor-style
+*/
+
+html,
+body {
+  background: #eefdff url("images/css/bg-page.png") repeat-x scroll 0 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+body,
+table,
+td,
+th,
+tr,
+input,
+textarea {
+  font: normal 13px "Arial", tahoma, verdana, sans-serif;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  zoom: 1;
+}
+
+img,
+table,
+td,
+th {
+  border: none;
+}
+td,
+th {
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+}
+a {
+  color: #024b9c;
+  outline: none;
+}
+.clear {
+  clear: both;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+object {
+  outline: none;
+}
+.fir {
+  text-indent: -2000px;
+  overflow: hidden;
+  display: block;
+}
+
+.outerWrapper {
+  background: transparent url("images/css/bg-header.jpg") no-repeat scroll 50% 0;
+}
+.wrapper {
+  width: 980px;
+  min-width: 980px;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+}
+.header {
+  height: 124px;
+  padding: 10px 0;
+  position: relative;
+}
+.contentWrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  padding: 20px 0;
+  margin: 0 0 10px 0;
+}
+
+.header a.home {
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -2px;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0 0 4px #000;
+  font-family: Arial, tahoma, verdana, sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 14px 0 0 35px;
+  position: relative;
+  display: block;
+}
+.tagline {
+  color: #a1f3ff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0px 0 7px 40px;
+}
+
+.topMenu {
+  position: absolute;
+  z-index: 6;
+  top: 83px;
+}
+.topMenuOuter {
+  position: relative;
+}
+.topMenuInner {
+  position: relative;
+  padding: 0 0 0 2px;
+}
+.topMenu .menu,
+.topMenu ul,
+.topMenu li {
+  float: left;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.topMenu li {
+  position: relative;
+}
+.topMenu a {
+  display: block;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  line-height: 57px;
+  height: 57px;
+  padding: 0 15px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*=== Homepage Styles ===*/
+
+.lCol {
+  width: 172px;
+  float: left;
+  left: -536px;
+  position: relative;
+  padding: 0 0 15px 0;
+}
+.rCol {
+  float: right;
+  width: 172px;
+  right: 20px;
+  position: relative;
+  padding: 0 0 15px 0;
+}
+.mCol {
+  float: left;
+  width: 556px;
+  left: 212px;
+  position: relative;
+  padding-bottom: 40px;
+}
+.mColWide {
+  padding: 0 20px;
+  position: relative;
+}
+
+/*=== Left Column Styles ===*/
+
+.wrapper .widget-container {
+  background-color: #ececec;
+  padding: 0 0 15px 0;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+.wrapper .widget-container h4 {
+  height: 40px;
+  line-height: 45px;
+  color: #fff;
+  overflow: hidden;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 0 14px;
+  background: transparent url("images/css/bg-header.jpg") no-repeat scroll 50% -9px;
+}
+.wrapper .widget-container h4 a {
+  color: #fff;
+  text-decoration: none;
+}
+.wrapper .widget-container a {
+  display: block;
+  text-decoration: none;
+}
+.wrapper .widget-container a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .widget-container ul,
+.wrapper .widget-container li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style-type: none;
+}
+.wrapper .widget-container li {
+  border-bottom: 1px solid #d2d2d2;
+  margin: 0 10px;
+}
+
+.wrapper .widget_wgasubpages a {
+  padding: 5px 0 5px 20px;
+  background: transparent url("images/css/bg-bullet.png") no-repeat scroll 6px
+    9px;
+}
+
+.wrapper .widget-container li.cat-post-item {
+  padding: 10px;
+}
+.wrapper .widget-container li.cat-post-item a {
+  display: block;
+}
+.wrapper .widget-container li.cat-post-item .post-title {
+  font-weight: bold;
+}
+.wrapper .widget-container li.cat-post-item p {
+  color: #56585e;
+  margin: 5px 0 0 0;
+  font-size: 12px;
+}
+
+.advanced-recent-posts,
+.advanced-recent-posts li {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.advanced-recent-posts li {
+  margin: 0 20px;
+  padding: 10px 0;
+  color: #56585e;
+}
+.advanced-recent-posts li a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #024b9c;
+  padding: 0 0 5px 0;
+}
+.advanced-recent-posts li a:hover {
+  text-decoration: underline;
+}
+
+.lCol .wrapper .widget_advancedrecentposts li {
+  padding: 10px 0 5px 0;
+}
+.lCol .wrapper .widget_advancedrecentposts li a {
+  color: #003300;
+  font-weight: normal;
+}
+
+.wrapper .widget_text {
+  background: transparent;
+  overflow: hidden;
+  padding: 0;
+}
+
+.wrapper .widget_newsletter {
+  background-color: #ececec;
+  padding: 0 0 15px 0;
+  margin: 0 0 20px 0;
+  position: relative;
+  width: 172px;
+}
+.wrapper .widget_newsletter form {
+  padding: 5px 10px 0px 10px;
+  overflow: hidden;
+}
+.wrapper .widget_newsletter form .row {
+  padding: 0 0 5px 0;
+}
+.wrapper .widget_newsletter form label {
+  display: block;
+  font-size: 12px;
+  margin: 0;
+  font-weight: normal;
+  color: #000;
+}
+.wrapper .widget_newsletter form input {
+  float: right;
+}
+.wrapper .widget_newsletter form .row input {
+  display: block;
+  font-size: 12px;
+  margin: 1px 0;
+  font-weight: normal;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  width: 143px;
+  float: none;
+  padding: 4px 3px;
+}
+.wrapper .widget_newsletter .buttonYellow {
+  float: right;
+  margin-top: 4px;
+}
+.wrapper .widget_newsletter .buttonYellow input {
+  border: none;
+  background-color: #56a8da;
+  padding: 0 15px;
+  margin: 0;
+  height: 28px;
+  line-height: 28px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #777;
+  font-weight: bold;
+}
+.wrapper .widget_newsletter form .row input.error {
+  border-color: red;
+}
+.wrapper .widget_newsletter label.error {
+  color: #900;
+  font: normal 11px "Arial", tahoma, verdana, sans-serif;
+}
+
+.wrapper .widget_categories li {
+  padding: 4px 0;
+}
+.wrapper .widget_categories li a {
+  color: #024b9c;
+}
+
+/*=== Right Column Styles ===*/
+
+.wrapper .advanced-recent-posts {
+}
+.wrapper .advanced-recent-posts,
+.advanced-recent-posts li {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.wrapper .advanced-recent-posts li {
+  margin: 0 20px;
+  padding: 10px 0;
+  color: #56585e;
+}
+.wrapper .advanced-recent-posts li a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #024b9c;
+  padding: 0 0 5px 0;
+}
+.wrapper .advanced-recent-posts li a:hover {
+  text-decoration: underline;
+}
+
+.cat-post-item {
+}
+
+.casinoBanner {
+  background-color: #ececec;
+  padding: 0 0 0px 0;
+  margin: 0 0 20px 0;
+  position: relative;
+  width: 172px;
+}
+.casinoBannerInner {
+  position: relative;
+  overflow: hidden;
+}
+.casinoBanner .title {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background: transparent url("images/css/bg-header.jpg") no-repeat scroll 50% -39px;
+}
+.casinoBanner .image {
+  display: block;
+  border: 1px solid #e3e3e3;
+  padding: 3px;
+  background-color: #fff;
+  width: 144px;
+  height: 85px;
+  overflow: hidden;
+  margin: 11px 0 5px 10px;
+}
+.casinoBanner .image img {
+  display: block;
+  width: 144px;
+  height: 85px;
+}
+.casinoBanner .buttons {
+  overflow: hidden;
+  width: 149px;
+  height: 34px;
+  background: transparent url("images/css/bg-casino-banner-buttons.png")
+    no-repeat scroll 0 0;
+  margin: 0 0 0 11px;
+}
+.casinoBanner .buttons a {
+  display: block;
+  float: right;
+  height: 28px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+  width: 80px;
+  text-align: center;
+  padding: 0 5px 0 0;
+}
+.casinoBanner .buttons a:hover {
+  text-decoration: underline;
+}
+.casinoBanner .buttons a.visitLink {
+  background: transparent url("images/css/bg-casino-banner-buttons.png")
+    no-repeat scroll 100% 0;
+  float: left;
+  width: 55px;
+  padding: 0 7px 0 0;
+}
+
+.siteDescriptionText {
+  padding: 10px 12px;
+}
+.siteDescriptionText p {
+  margin-top: 0;
+}
+
+.casinoRating {
+  margin-bottom: 20px;
+}
+.casinoRating h4 {
+  margin: 0 0 5px 0;
+  padding: 10px 15px;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+.casinoRating table {
+  width: 100%;
+  border: 1px solid #dedede;
+  background: #eefdff url("images/css/bg-page.png") repeat-x scroll 0 -10px;
+}
+.casinoRating table th {
+  padding: 15px 15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+  border-right: 1px solid #ccc;
+  text-shadow: #0f5f94 0px -1px 0px;
+}
+.casinoRating table td {
+  padding: 7px 15px;
+  color: #000;
+  background-color: #fefefe;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #f3f3f3;
+}
+.casinoRating table td.ratingCell {
+  color: #724000;
+  text-align: center;
+  font-size: 14px;
+}
+.casinoRating table .odd td {
+  background-color: #fff;
+}
+.casinoRating table .first td {
+  background-color: #f1fecb;
+  padding-top: 15px;
+  font-weight: bold !important;
+}
+.casinoRating table td a {
+  text-decoration: none;
+}
+.casinoRating table td a:hover {
+  text-decoration: underline;
+}
+.casinoRating .tableFooter {
+  display: none;
+}
+.casinoRating table td a {
+  color: #006600;
+}
+
+.casinoRating a.visitLink {
+  float: left;
+  display: block;
+  background: transparent url("images/css/bg-button-yellow.png") no-repeat
+    scroll 100% 0;
+  height: 32px;
+  line-height: 32px;
+  text-decoration: none;
+  margin: 0;
+}
+.casinoRating a.visitLink strong {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 15px;
+  background: transparent url("images/css/bg-button-yellow.png") no-repeat
+    scroll 0 0;
+  height: 32px;
+  line-height: 32px;
+  text-shadow: #0f5f94 0px -1px 0px;
+  display: block;
+  white-space: nowrap;
+}
+.casinoRating a.visitLink:hover {
+  text-decoration: none;
+}
+
+.casinoRating .numberCell {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #444;
+}
+.casinoRating table td img {
+  width: 120px;
+}
+.casinoRating .description {
+  font-weight: normal;
+  font-size: 12px;
+  color: #555;
+}
+.casinoRating .readReview {
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+.casinoRating .bonus {
+  font-weight: bold;
+}
+.casinoRating .mindeposit,
+.casinoRating .payout {
+  text-align: center;
+}
+
+.casinoRating .rating {
+  width: 100px;
+  height: 18px;
+  overflow: hidden;
+  background: transparent url("images/css/bg-rating-stars-big.png") no-repeat
+    scroll 0 0;
+  margin: 3px 0 0 10px;
+}
+.casinoRating .rating div {
+  float: left;
+  height: 18px;
+  overflow: hidden;
+  background: transparent url("images/css/bg-rating-stars-big.png") no-repeat
+    scroll -100px 0;
+}
+
+.newsItem {
+  border-top: 1px solid #e3e3e3;
+  padding: 20px 0;
+}
+.newsItem .image {
+  display: block;
+  border: 1px solid #e3e3e3;
+  padding: 3px;
+  background-color: #fff;
+  width: 144px;
+  height: 85px;
+  overflow: hidden;
+  float: left;
+}
+.newsItem .image img {
+  display: block;
+  width: 144px;
+  height: 85px;
+}
+.newsItem .info {
+  padding: 0 0 0 172px;
+}
+.newsItem .infoNoimage {
+  padding: 0;
+}
+
+div.ratingSmallStars {
+  width: 64px;
+  height: 12px;
+  overflow: hidden;
+  background: transparent url("images/css/bg-rating-stars-small.png") no-repeat
+    scroll 0 0;
+}
+div.ratingSmallStars div {
+  float: left;
+  height: 12px;
+  overflow: hidden;
+  background: transparent url("images/css/bg-rating-stars-small.png") no-repeat
+    scroll -65px 0;
+}
+
+div.newsItem .ratingSmallStars {
+  float: right;
+  margin: 7px 0 0 0;
+}
+
+.newsItem h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+.newsItem h2 a {
+  text-decoration: none;
+}
+.newsItem h2 a:hover {
+  text-decoration: underline;
+}
+.newsItem p {
+  margin: 8px 0 12px 0;
+  line-height: 1.4;
+}
+.newsItem a.more {
+  margin: -7px 0 12px 0;
+  display: block;
+  font-style: italic;
+  text-decoration: none;
+}
+.newsItem a.more:hover {
+  text-decoration: underline;
+}
+
+.addthis_toolbox {
+  float: left;
+  margin: 20px 0 0 0;
+}
+
+.newsItem a.downloadLink {
+  float: left;
+  display: block;
+  height: 28px;
+  line-height: 28px;
+  margin: 0 20px 0 0;
+  color: #1b8918;
+  font-size: 17px;
+}
+.newsItem a.visitLink {
+  float: left;
+  display: block;
+  height: 28px;
+  line-height: 28px;
+  margin: 0 20px 0 0;
+  font-size: 17px;
+  color: #238cd5;
+}
+
+.relatedInfo {
+}
+.relatedInfo h4 {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+  margin: 20px 0 5px 0;
+}
+.relatedInfo a {
+  display: block;
+  padding: 3px 0 3px 15px;
+  background: transparent url("images/css/bg-bullet.png") no-repeat scroll 0 7px;
+  text-decoration: none;
+}
+.relatedInfo a:hover {
+  text-decoration: underline;
+}
+.relatedInfo a span {
+  display: block;
+  color: #333;
+}
+
+.pageContent .ratingContainer {
+  float: right;
+  line-height: 1;
+  height: 18px;
+  color: #777;
+  font-size: 18px;
+  margin: 20px 0 0 20px;
+  zoom: 1;
+  position: relative;
+  z-index: 5;
+}
+.pageContent .ratingContainer span {
+  color: #330000;
+  font-size: 24px;
+  margin: 0 0 0 5px;
+  letter-spacing: -1px;
+}
+.pageContent .rating {
+  float: right;
+  width: 100px;
+  height: 18px;
+  overflow: hidden;
+  background: #fff url("images/css/bg-rating-stars-big.png") no-repeat scroll 0
+    0;
+  margin: 3px 0 0 10px;
+}
+.pageContent .rating div {
+  float: left;
+  height: 18px;
+  overflow: hidden;
+  background: transparent url("images/css/bg-rating-stars-big.png") no-repeat
+    scroll -100px 0;
+}
+
+.contentCol {
+  float: right;
+  width: 680px;
+}
+.infoCol {
+  float: left;
+  width: 222px;
+  overflow: hidden;
+}
+
+.casinoLogo {
+  width: 202px;
+  padding: 9px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 0 0 20px 0;
+}
+.casinoLogo .image {
+  display: block;
+  width: 202px;
+  height: 114px;
+  overflow: hidden;
+  text-align: center;
+}
+.casinoLogo .text {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 23px 0 0;
+  margin: 14px 0 4px 0;
+  background: transparent url("images/css/bg-arrow.png") no-repeat scroll 100% 0;
+  height: 15px;
+  line-height: 15px;
+  color: #694444;
+}
+.casinoLogo a.text:hover {
+  text-decoration: underline;
+}
+
+.infoCol table {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+.infoCol table td {
+  border-bottom: 1px solid #ddd;
+  padding: 7px 10px 7px 0;
+  color: #000;
+}
+.infoCol table strong {
+  font-weight: bold;
+  font-size: 18px;
+  color: #336600;
+}
+.infoCol table td.label {
+  color: #555;
+}
+.infoCol table td.label strong {
+  color: #333;
+}
+.infoCol table a {
+  text-decoration: none;
+}
+.infoCol table a:hover {
+  text-decoration: underline;
+}
+
+.infoCol a.screenshot {
+  display: block;
+  width: 202px;
+  padding: 9px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.infoCol a.screenshot:hover {
+  background-color: #feeca4;
+}
+.infoCol a.screenshot img {
+  display: block;
+}
+
+/*=== Common Content Styles ===*/
+
+.breadCrumbs {
+  font-size: 12px;
+  color: #777;
+}
+.breadCrumbs a {
+  text-decoration: none;
+}
+.breadCrumbs a:hover {
+  text-decoration: underline;
+}
+
+h1.pageTitle {
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -2px;
+  margin: 15px 0;
+}
+
+.articleBody {
+  border: 1px solid #ddd;
+  border-width: 1px 0;
+  padding: 20px 0 20px 0;
+  zoom: 1;
+}
+.reviewBody {
+  border-top: 1px solid #ddd;
+  padding: 20px 0 20px 0;
+  zoom: 1;
+}
+.contentGamesBody {
+  padding: 20px 0 20px 0;
+  zoom: 1;
+}
+
+.content .buttonsDB {
+  background: transparent url("images/css/bg-buttons-big.jpg") no-repeat scroll
+    0 0;
+  width: 424px;
+  height: 80px;
+  font-size: 18px;
+  line-height: 46px;
+  position: relative;
+  margin: 30px auto 0 auto;
+}
+.content .buttonsDB a {
+  color: #fff;
+  text-decoration: none;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+}
+.content .buttonsDB a.visitLink {
+  left: 0;
+  width: 202px;
+  text-shadow: #2a7bba -1px -1px 1px;
+}
+.content .buttonsDB a.downloadLink {
+  left: 212px;
+  width: 170px;
+  padding: 0 45px 0 0;
+  text-shadow: #3f7a19 -1px -1px 1px;
+}
+
+.content .buttonsDB a.visitLink:hover {
+  text-shadow: #2a7bba -1px -1px 8px;
+}
+.content .buttonsDB a.downloadLink:hover {
+  text-shadow: #3f7a19 -1px -1px 8px;
+}
+
+.content {
+  line-height: 1.3;
+}
+.excerpt {
+  font-size: 17px;
+  color: #000;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 0;
+}
+.content h1 {
+  font-size: 32px;
+}
+.content h2 {
+  font-size: 28px;
+}
+.content h3 {
+  font-size: 22px;
+}
+.content h4 {
+  font-size: 18px;
+}
+.content h5 {
+  font-size: 14px;
+}
+.content h6 {
+  font-size: 14px;
+  font-style: italic;
+}
+.content p {
+  line-height: 1.5;
+  margin-top: 0;
+}
+.date {
+  margin: -5px 0 15px 0;
+  color: #777;
+}
+.content .top {
+  margin-top: 0;
+}
+.content .imgRight,
+.content .alignright {
+  float: right;
+  margin: 0 0 30px 30px;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 9px;
+}
+.content .imgLeft,
+.content .alignleft {
+  float: left;
+  margin: 0 25px 0 0;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 9px;
+}
+.content .aligncenter,
+.content img.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content table {
+  border-top: 1px solid #ddd;
+  margin: 1em 0;
+}
+.content table td,
+.content table th {
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+}
+.content table th {
+  background-color: #eee;
+  padding: 12px 10px;
+  font-weight: normal;
+}
+
+.content .date {
+  color: #73001b;
+}
+.content .first {
+  margin-top: 0 !important;
+}
+
+.content ul,
+.content ol,
+.content li {
+  margin: 0;
+  padding: 0;
+}
+.content ul {
+  margin: 13px 30px;
+  list-style-type: circle;
+}
+.content ol {
+  margin: 13px 30px;
+}
+.content li ul,
+.content li ol {
+  margin: 0 30px;
+}
+.content li {
+  margin: 5px 0;
+}
+.content li a {
+  text-decoration: none;
+}
+
+.content cite,
+.content em,
+.content i {
+  font-style: italic;
+  border: none;
+}
+.content big {
+  font-size: 131.25%;
+}
+.content ins {
+  background: #ffffcc;
+  border: none;
+  color: #333;
+  text-decoration: none;
+}
+.content del {
+  text-decoration: line-through;
+  color: #555;
+}
+
+.content blockquote {
+  background: transparent url("images/css/bg-cite.png") no-repeat scroll 0 5px;
+  padding: 0 0 0 55px;
+  display: block;
+  margin-left: 0;
+  color: #00407c;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.content sup,
+.content sub {
+  height: 0;
+  line-height: 1;
+  vertical-align: baseline;
+  position: relative;
+  font-size: 10px;
+}
+.content sup {
+  bottom: 1ex;
+}
+.content sub {
+  top: 0.5ex;
+}
+
+.contactInfo h4 {
+  margin-bottom: -10px;
+}
+
+.content hr {
+  background-color: #e7e7e7;
+  border: 0;
+  height: 1px;
+  margin-bottom: 18px;
+  clear: both;
+}
+
+/*=== FOOTER ===*/
+
+.footer {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 980px;
+  min-width: 980px;
+  color: #777;
+}
+.footer .botMenu {
+}
+.footer .botMenu div,
+.footer .botMenu ul,
+.footer .botMenu li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.footer a {
+  padding: 0 15px;
+  text-decoration: none;
+  margin: 50px 0 0 0;
+  font-size: 12px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer .copy {
+  text-align: center;
+  padding: 15px 0 0 0;
+  font-size: 11px;
+  line-height: 18px;
+}
+.ratingContainerMicroFormat {
+  text-align: center;
+  padding: 0 0 10px 0;
+  font-size: 11px;
+  color: #555;
+}
+
+/*=== SHADOWBOX ===*/
+
+#sb-title-inner,
+#sb-info-inner,
+#sb-loading-inner,
+div.sb-message {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 200;
+  color: #fff;
+}
+#sb-container {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  text-align: left;
+  visibility: hidden;
+  display: none;
+}
+#sb-overlay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+#sb-wrapper {
+  position: absolute;
+  visibility: hidden;
+  width: 100px;
+}
+#sb-wrapper-inner {
+  position: relative;
+  border: 1px solid #303030;
+  overflow: hidden;
+  height: 100px;
+}
+#sb-body {
+  position: relative;
+  height: 100%;
+}
+#sb-body-inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#sb-player.html {
+  height: 100%;
+  overflow: auto;
+}
+#sb-body img {
+  border: none;
+}
+#sb-loading {
+  position: relative;
+  height: 100%;
+}
+#sb-loading-inner {
+  position: absolute;
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+  top: 50%;
+  margin-top: -12px;
+  width: 100%;
+  text-align: center;
+}
+#sb-loading-inner span {
+  background: url(images/css/loading.gif) no-repeat;
+  padding-left: 34px;
+  display: inline-block;
+}
+#sb-body,
+#sb-loading {
+  background-color: #060606;
+}
+#sb-title,
+#sb-info {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#sb-title,
+#sb-title-inner {
+  height: 26px;
+  line-height: 26px;
+}
+#sb-title-inner {
+  font-size: 16px;
+}
+#sb-info,
+#sb-info-inner {
+  height: 20px;
+  line-height: 20px;
+}
+#sb-info-inner {
+  font-size: 12px;
+}
+#sb-nav {
+  float: right;
+  height: 16px;
+  padding: 2px 0;
+  width: 45%;
+}
+#sb-nav a {
+  display: block;
+  float: right;
+  height: 16px;
+  width: 16px;
+  margin-left: 3px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+#sb-nav-close {
+  background-image: url(images/css/close.png);
+}
+#sb-nav-next {
+  background-image: url(images/css/next.png);
+}
+#sb-nav-previous {
+  background-image: url(images/css/previous.png);
+}
+#sb-nav-play {
+  background-image: url(images/css/play.png);
+}
+#sb-nav-pause {
+  background-image: url(images/css/pause.png);
+}
+#sb-counter {
+  float: left;
+  width: 45%;
+}
+#sb-counter a {
+  padding: 0 4px 0 0;
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+#sb-counter a.sb-counter-current {
+  text-decoration: underline;
+}
+div.sb-message {
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+div.sb-message a:link,
+div.sb-message a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* TODO - MERGE STYLES  */
+
+/*=== Homepage Styles ===*/
+
+.lCol {
+  left: 40px;
+}
+.mCol {
+  left: 20px;
+}
+
+.siteDescriptionText {
+  padding: 10px 12px;
+}
+
+.wrapper .casinoGames a {
+  color: #fff;
+}
+.wrapper .casinoGames a:hover {
+  color: #ffcc66;
+}
+
+.newsItem h2 a {
+  color: #274c76;
+}
+
+.excerpt {
+  font-family: Arial, tahoma, verdana, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.infoCol table strong {
+  font-family: Arial, tahoma, verdana, sans-serif;
+  color: #000;
+}
+.pageContent .ratingContainer {
+  font-family: Arial, tahoma, verdana, sans-serif;
+}
+
+.thankYouMessage {
+  padding: 10px 20px 20px 20px;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+.contactForm {
+  background-color: #ddeffc;
+  border-radius: 7px;
+  padding: 10px 0;
+}
+.contactForm .row {
+  padding: 10px 20px;
+  border-top: 1px solid #bad6ea;
+}
+.contactForm .row:first-child {
+  border: none;
+}
+.contactForm .row label {
+  display: block;
+  float: left;
+  color: #000;
+}
+.contactForm .row input {
+  width: 360px;
+  float: right;
+}
+.contactForm .row textarea {
+  width: 360px;
+  float: right;
+  height: 100px;
+}
+.contactForm #cfSubmitButton {
+  float: right;
+  margin: 0px 20px 10px 10px;
+}
+
+.gamesList a {
+  float: left;
+  display: block;
+  width: 160px;
+  height: 147px;
+  text-align: center;
+  padding: 5px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+.gamesList a span {
+  display: block;
+}
+.gamesList a span.gameTitle {
+  height: 22px;
+  overflow: hidden;
+}
+.gamesList a span.playNowButton {
+  background: #07457f url("images/css/bg-play-now-button.png") repeat-x scroll 0
+    0;
+  margin: 0 auto;
+  padding: 0 10px;
+  color: #fff;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #555;
+  display: inline-block;
+  border: 2px solid #fff;
+}
+.gamesList a img {
+  display: block;
+  border-radius: 5px;
+  margin: 0 0 5px 0;
+}
+
+.contentWide .gamesList {
+  margin-right: -10px;
+}
+.contentWide .gamesList a {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.gamesListHome .gamesList {
+  margin-right: -30px;
+}
+.gamesListHome .gamesList a {
+  margin-right: 19px;
+  margin-bottom: 10px;
+}
+
+.gamesListHome h4 {
+  margin: -5px 0 10px 0;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: #054d6a 0px -1px 0px;
+}
+.gamesListHome {
+  background-color: #0076a6;
+}
+
+.newsCol {
+  width: 330px;
+  float: left;
+  margin: 0 10px;
+}
+.reviewsCol {
+  width: 530px;
+  float: left;
+  margin: 0 40px 0 10px;
+}
+
+.newsColumns h4 {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}

@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en-EN">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Contact | Pokies for Australia</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+      href="../wp-content/themes/default-2/style.css"
+    />
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <script type="text/javascript" src="../shadowbox.js"></script>
+    <script type="text/javascript">
+      Shadowbox.init();
+    </script>
+    <script type="text/javascript" src="../scout.js"></script>
+    <script type="text/javascript" src="../xmark.js"></script>
+    <style type="text/css">
+      .recentcomments a {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    </style>
+  </head>
+  <body
+    class="page page-id-6 page-template page-template-page-template-contact-php"
+  >
+    <div class="outerWrapper">
+      <div class="wrapper">
+        <div id="header" class="header">
+          <a
+            rel="home"
+            title="Pokies for Australia"
+            class="home"
+            href="../index.html"
+            >Pokies for Australia</a
+          >
+          <div class="tagline">Aussie pokies review</div>
+          <div id="access" role="navigation" class="topMenu">
+            <div class="topMenuOuter">
+              <div class="topMenuInner png">
+                <div class="menu-top-navigation-container">
+                  <ul id="menu-top-navigation" class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../reviews/index.html">Reviews</a></li>
+                    <li><a href="../category/news/index.html">News</a></li>
+                    <li><a href="../games/index.html">Games</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contentWrapper">
+          <div class="mCol" id="content" role="main">
+            <div class="pageContent">
+              <h1 class="pageTitle">Contact Us</h1>
+              <div class="content">
+                <p>
+                  Please use the following form to contact us with your
+                  questions, comments, and concerns. Fields marked with an * are
+                  required to receive a response.
+                </p>
+                <div class="contactForm cf">
+                  <form
+                    name="contact-form"
+                    method="post"
+                    accept-charset="UTF-8"
+                    onsubmit="return contactformsubmit()"
+                    action="../thank-you.html"
+                  >
+                    <div>
+                      <div class="row cf">
+                        <label for="cfName">Name *</label>
+                        <input
+                          type="text"
+                          name="cfName"
+                          id="cfName"
+                          required="required"
+                        />
+                      </div>
+                      <div class="row cf">
+                        <label for="cfEmail">Email *</label>
+                        <input
+                          type="email"
+                          name="cfEmail"
+                          id="cfEmail"
+                          required="required"
+                        />
+                      </div>
+                      <div class="row cf">
+                        <label for="cfMessage">Message</label>
+                        <textarea name="cfMessage" id="cfMessage"></textarea>
+                      </div>
+                      <input type="submit" value="Submit" id="cfSubmitButton" />
+                    </div>
+                  </form>
+                </div>
+                <script type="text/javascript">
+                  function contactformsubmit() {
+                    // Validation for those without HTML5
+                    form = document.forms["contact-form"];
+                    if (
+                      form.elements["cfName"].value == "" ||
+                      form.elements["cfEmail"].value == ""
+                    ) {
+                      alert("Name and email are required");
+                      return false;
+                    }
+                    emlregex = /^[a-z0-9-_\.+]+@[a-z0-9-\.]+\.[a-z]{2,6}$/i;
+                    if (!emlregex.test(form.elements["email"].value)) {
+                      alert("Please enter a valid email address");
+                      return false;
+                    }
+                    // Submit
+
+                    return true; // For onsubmit
+                  }
+                </script>
+              </div>
+            </div>
+          </div>
+          <div class="lCol">
+            <div class="widget-container widget_wgasubpages">
+              <h4 class="widget-title">Casino Reviews</h4>
+              <ul class="wga-subpages">
+                <li>
+                  <a href="../review/casino/europalace.html">Euro Palace</a>
+                </li>
+                <li><a href="../review/casino/redflush.html">Red Flush</a></li>
+                <li>
+                  <a href="../review/casino/casino.com/index.html"
+                    >Casino.com</a
+                  >
+                </li>
+                <li>
+                  <a href="../review/casino/royalvegas.html">Royal Vegas</a>
+                </li>
+                <li>
+                  <a href="../review/casino/platinumplay.html">Platinum Play</a>
+                </li>
+                <li><a href="../review/casino/europa.html">Europa</a></li>
+                <li><a href="../review/casino/cityclub.html">City Club</a></li>
+                <li><a href="../review/casino/winner.html">Winner</a></li>
+                <li>
+                  <a href="../review/casino/crowneurope.html">Crown Europe</a>
+                </li>
+              </ul>
+            </div>
+            <div style="margin: 0 auto; text-align: center">
+              <a target="_blank" href="#plp_au_vst/"
+                ><img src="../images/banners/plp_160x600_en.gif"
+              /></a>
+            </div>
+            <div class="widget-container widget_text" id="text-2">
+              <h4 class="widget-title">Free Games</h4>
+              <div class="gamesList gamesListWidget cf">
+                <a href="#epl_def_bjck/" target="_blank" class="js-href-main"
+                  ><span class="gameTitle">Blackjack</span>
+                  <img
+                    src="../wp-content/plugins/wv-listing/instant-game-banners/blackjack.jpg"
+                    alt=""
+                  />
+                  <span class="playNowButton">Play Now</span></a
+                >
+                <a href="#epl_def_rltt/" target="_blank" class="js-href-main"
+                  ><span class="gameTitle">Roulette</span>
+                  <img
+                    src="../wp-content/plugins/wv-listing/instant-game-banners/roulette.jpg"
+                    alt=""
+                  />
+                  <span class="playNowButton">Play Now</span></a
+                >
+                <a href="#epl_def_sltg/" target="_blank" class="js-href-main"
+                  ><span class="gameTitle">Slot Games</span>
+                  <img
+                    src="../wp-content/plugins/wv-listing/instant-game-banners/slot_games.jpg"
+                    alt=""
+                  />
+                  <span class="playNowButton">Play Now</span></a
+                >
+                <a href="#epl_def_crps/" target="_blank" class="js-href-main"
+                  ><span class="gameTitle">Craps</span>
+                  <img
+                    src="../wp-content/plugins/wv-listing/instant-game-banners/craps.jpg"
+                    alt=""
+                  />
+                  <span class="playNowButton">Play Now</span></a
+                >
+                <a href="#epl_def_pokr/" target="_blank" class="js-href-main"
+                  ><span class="gameTitle">Poker</span>
+                  <img
+                    src="../wp-content/plugins/wv-listing/instant-game-banners/poker.jpg"
+                    alt=""
+                  />
+                  <span class="playNowButton">Play Now</span></a
+                >
+              </div>
+            </div>
+            <div style="text-align: center"></div>
+          </div>
+          <div class="rCol">
+            <div
+              id="text-8"
+              class="widget-container widget_text widget_newsletter"
+            >
+              <h4 class="widget-title">Newsletter</h4>
+              <div class="textwidget">
+                <form
+                  onsubmit="return newslettersignup()"
+                  accept-charset="UTF-8"
+                  class="infusion-form"
+                  method="post"
+                  name="newsletter-signup"
+                >
+                  <input type="hidden" value="en_EN" name="lang" />
+                  <div
+                    class="text"
+                    id="webformErrors"
+                    name="errorContent"
+                  ></div>
+                  <div class="row">
+                    <label for="name">Name *</label>
+                    <input type="text" required="required" name="name" />
+                  </div>
+                  <div class="row">
+                    <label for="email">Email *</label>
+                    <input type="email" required="required" name="email" />
+                  </div>
+                  <div class="buttonYellow">
+                    <div>
+                      <input type="submit" value="Subscribe" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <script type="text/javascript">
+                function newslettersignup() {
+                  // Validation for those without HTML5
+                  form = document.forms["newsletter-signup"];
+                  if (
+                    form.elements["name"].value == "" ||
+                    form.elements["email"].value == ""
+                  ) {
+                    alert("Name and email are required");
+                    return false;
+                  }
+                  emlregex = /^[a-z0-9-_\.+]+@[a-z0-9-\.]+\.[a-z]{2,6}$/i;
+                  if (!emlregex.test(form.elements["email"].value)) {
+                    alert("Please enter a valid email address");
+                    return false;
+                  }
+                  // Submit
+                  $('form.infusion-form input[type="button"]')
+                    .parent()
+                    .remove();
+                  var data = $("form.infusion-form").serialize();
+                  setTimeout(() => {
+                    $("form.infusion-form")
+                      .parent()
+                      .html(
+                        '<div class="thankYouMessage">Thank you for subscribing</div>'
+                      );
+                  }, 300);
+                  return false; // For onsubmit
+                }
+              </script>
+            </div>
+            <div class="casinoBanner newsColumns">
+              <a class="title" href="#">Casino Reviews</a>
+              <a
+                rel="bookmark"
+                class="image"
+                title="Euro Palace"
+                href="../review/casino/europalace.html"
+                ><img
+                  alt="Euro Palace"
+                  src="../wp-content/plugins/wv-listing/content/epl/logo.png"
+              /></a>
+              <div class="buttons">
+                <a href="#epl_au_vst" class="visitLink" target="_blank"
+                  >Visit</a
+                >
+                <a href="#epl_au_dwd" class="downloadLink" target="_blank"
+                  >Download</a
+                >
+              </div>
+              <a
+                rel="bookmark"
+                class="image"
+                title="Red Flush"
+                href="../review/casino/redflush.html"
+                ><img
+                  alt="Red Flush"
+                  src="../wp-content/plugins/wv-listing/content/rdf/logo.jpg"
+              /></a>
+              <div class="buttons">
+                <a href="#rdf_au_vst" class="visitLink" target="_blank"
+                  >Visit</a
+                >
+                <a href="#rdf_au_dwd" class="downloadLink" target="_blank"
+                  >Download</a
+                >
+              </div>
+              <a
+                rel="bookmark"
+                class="image"
+                title="Casino.com"
+                href="../review/casino/casino.com.html"
+                ><img
+                  alt="Casino.com"
+                  src="../wp-content/plugins/wv-listing/content/cas/logo.jpg"
+              /></a>
+              <div class="buttons">
+                <a href="#cas_au_vst" class="visitLink" target="_blank"
+                  >Visit</a
+                >
+                <a href="#cas_au_dwd" class="downloadLink" target="_blank"
+                  >Download</a
+                >
+              </div>
+              <a
+                rel="bookmark"
+                class="image"
+                title="Royal Vegas"
+                href="../review/casino/royalvegas.html"
+                ><img
+                  alt="Royal Vegas"
+                  src="../wp-content/plugins/wv-listing/content/rlv/logo.jpg"
+              /></a>
+              <div class="buttons">
+                <a href="#rlv_au_vst" class="visitLink" target="_blank"
+                  >Visit</a
+                >
+                <a href="#rlv_au_dwd" class="downloadLink" target="_blank"
+                  >Download</a
+                >
+              </div>
+              <a
+                rel="bookmark"
+                class="image"
+                title="Platinum Play"
+                href="../review/casino/platinumplay.html"
+                ><img
+                  alt="Platinum Play"
+                  src="../wp-content/plugins/wv-listing/content/plp/logo.png"
+              /></a>
+              <div class="buttons">
+                <a href="#plp_au_vst" class="visitLink" target="_blank"
+                  >Visit</a
+                >
+                <a href="#plp_au_dwd" class="downloadLink" target="_blank"
+                  >Download</a
+                >
+              </div>
+              <a
+                rel="bookmark"
+                class="image"
+                title="Europa"
+                href="../review/casino/europa.html"
+                ><img
+                  alt="Europa"
+                  src="../wp-content/plugins/wv-listing/content/erp/logo.jpg"
+              /></a>
+              <div class="buttons">
+                <a href="#erp_au_vst" class="visitLink" target="_blank"
+                  >Visit</a
+                >
+                <a href="#erp_au_dwd" class="downloadLink" target="_blank"
+                  >Download</a
+                >
+              </div>
+              <a
+                rel="bookmark"
+                class="image"
+                title="City Club"
+                href="../review/casino/cityclub.html"
+                ><img
+                  alt="City Club"
+                  src="../wp-content/plugins/wv-listing/content/ctc/logo.jpg"
+              /></a>
+              <div class="buttons">
+                <a href="#ctc_au_vst" class="visitLink" target="_blank"
+                  >Visit</a
+                >
+                <a href="#ctc_au_dwd" class="downloadLink" target="_blank"
+                  >Download</a
+                >
+              </div>
+              <a
+                rel="bookmark"
+                class="image"
+                title="Winner"
+                href="../review/casino/winner.html"
+                ><img
+                  alt="Winner"
+                  src="../wp-content/plugins/wv-listing/content/wnr/logo.jpg"
+              /></a>
+              <div class="buttons">
+                <a href="#wnr_au_vst" class="visitLink" target="_blank"
+                  >Visit</a
+                >
+                <a href="#wnr_au_dwd" class="downloadLink" target="_blank"
+                  >Download</a
+                >
+              </div>
+              <a
+                rel="bookmark"
+                class="image"
+                title="Crown Europe"
+                href="../review/casino/crowneurope.html"
+                ><img
+                  alt="Crown Europe"
+                  src="../wp-content/plugins/wv-listing/content/cep/logo.jpg"
+              /></a>
+              <div class="buttons">
+                <a href="#cep_au_vst" class="visitLink" target="_blank"
+                  >Visit</a
+                >
+                <a href="#cep_au_dwd" class="downloadLink" target="_blank"
+                  >Download</a
+                >
+              </div>
+              <div style="margin: 0 auto; text-align: center">
+                <a target="_blank" href="#plp_au_vst/"
+                  ><img src="../images/banners/plp_160x600_en.gif"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer" id="footer" role="contentinfo">
+      <div class="botMenu">
+        <ul class="menu" id="menu-bottom-navigation">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../reviews/index.html">Reviews</a></li>
+          <li><a href="../category/news/index.html">News</a></li>
+          <li><a href="index.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="copy">Copyright &copy; 2011-2025.</div>
+    </div>
+    <script defer src="../wp-content/themes/default-2/js/offers.js"></script>
+  </body>
+</html>
